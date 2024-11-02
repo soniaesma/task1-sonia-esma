@@ -1,0 +1,60 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+div{
+    background-color: azure;
+}
+
+.div1{
+    background-color: blueviolet;
+}
+
+.div2{
+    display: flex;
+    direction: ltr;
+    flex-direction: row;
+    gap: 3px;
+    background-color: brown;
+}
+
+#firstpre{
+    color: blueviolet;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 25px;
+    background-color: rgb(151, 214, 209);
+    padding-left: 25px;
+   font-size: 30px;
+
+}
+
+/* a selectores */
+a:link{
+    color: rgb(233, 162, 10);
+    background-color: transparent;
+    text-decoration: line-through;
+}
+
+a:visited{
+    color: pink;
+
+}
+
+a:hover{
+    color: rgb(12, 194, 240);
+}
+
+a:active{
+    color: rgb(211, 233, 13);
+    text-decoration: none;
+}
+.mypre:hover{
+    cursor: pointer;
+    color: pink;
+}

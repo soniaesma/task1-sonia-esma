@@ -1,0 +1,24 @@
+blockquote{
+    cursor: pointer;
+}
+
+blockquote::after{
+    content: attr(cite);
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: fit-content;
+    padding-inline: 10px;
+    border-radius: 10px;
+}
+blockquote:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+blockquote:hover::after{
+    display: flex;
+}
+
+
+button{
+    display: none;
+}
