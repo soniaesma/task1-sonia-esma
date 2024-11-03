@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>back image</title>
+    <style>
+        .dive1{
+            width: 1000px;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(202, 183, 15);
+        }
+        .containers{
+            background-color: rgb(107, 17, 224);
+            width: 45%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .backimage{
+            background-image: url(src/images/logo.jpg);
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+        }
+
+        .image{
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="dive1">
+<div class="containers"><h1>background image</h1>
+<div class="backimage"></div>
+</div>
+<div class="containers">
+    <h1>image inside div</h1>
+    <img src="src/images/lable 1.jpg" alt="label sample" class="image">
+</div>
+    </div>
+</body>
+</html>
