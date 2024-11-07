@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position example</title>
+    <style>
+body{
+    width: 100vw;
+    height: 300vh;
+    background-color: beige;
+    overflow-x: hidden;
+}
+.container{
+width: 300px;
+height: 200px;
+/* border-style: dotted;
+border-style: solid; */
+border: 1px dotted black;
+position: relative;
+}
+.absoluteBox{
+    width: 100px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.fixedBox{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(231, 156, 17);
+    position: fixed;
+    top: 20px;
+    right: 50px;
+}
+.stickyBox{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(177, 10, 140);
+    position: sticky;
+    top: 20px;
+}
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <div class="absoluteBox"></div>
+    <div class="fixedBox"></div>
+    <div class="stickyBox"></div>
+    <p>Lorem ipsum dolor sit, <span style="color: brown;">
+    </colgroup>>amet consectetur adipisicing elit</span>. Et soluta ipsum explicabo sapiente fugiat architecto consequuntur distinctio exercitationem adipisci similique quas, labore, nisi iusto ipsam, magni illo. Veritatis, consectetur corrupti?</p>
+</div>
+
+</body>
+</html>

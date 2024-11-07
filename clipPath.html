@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clip path</title>
+    <style>
+       body
+    {
+      display: flex;
+        width: 100vw;
+        height: 200vh;
+        background-color: rgb(253, 228, 195);
+        overflow-x: hidden;
+        /* overflow-y: hidden; */
+
+    }
+
+    header{
+        width: 1300px;
+        height: 400px;
+        background-color: rgba(91, 248, 248, 0.397);
+        justify-content: center;
+       clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% calc(100% - 5rem),
+        0% 100%
+       );
+    }
+    </style>
+
+</head>
+<body>
+    
+<header>
+
+</header>
+
+</body>
+</html>
