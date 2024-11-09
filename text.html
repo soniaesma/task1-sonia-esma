@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+    <style>
+/* this tag means p is nth child of parent and 2 means 2nd chil also means second text */
+p:nth-child(2){
+    color: brown;
+}
+
+/* div>p{
+    color: aqua;
+} */
+p:last-of-type{
+    color: blue;
+}
+p:first-child{
+    color: aquamarine;
+    text-decoration: overline;
+}
+
+    </style>
+</head>
+<body>
+    
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+<p>this is a sample text</p>
+<p>this is a final sample text</p>
+
+<div>
+    <p>blah blah</p>
+</div>
+
+
+</body>
+</html>
