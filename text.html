@@ -19,6 +19,21 @@ p:last-of-type{
 p:first-child{
     color: aquamarine;
     text-decoration: overline;
+    text-wrap:nowrap;
+    letter-spacing: 4px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+div{width: 150px;
+border: solid;}
+div.a{
+    word-wrap: normal;
+    font-size: larger;
+}
+div.b{
+    word-wrap: break-word;
+    width: 80px;
+    height: 150px;
 }
 
     </style>
@@ -30,7 +45,23 @@ p:first-child{
 <p>this is a final sample text</p>
 
 <div>
-    <p>blah blah</p>
+    <p>blah blah سلام</p>
+</div>
+<h1>word-wrap property</h1>
+<h2>word-wrap normal</h2>
+<div class="a">
+    word wrap couldnt work correctly on lorem and we should use a long text here
+    word wrap couldnt work correctly on lorem and we should use a long text here
+    word wrap couldnt work correctly on lorem and we should use a long text here
+    word wrap couldnt work correctly on lorem and we should use a long text here
+
+</div>
+<h2>word wrap break word</h2>
+<div class="b">
+    word wrap couldnt work correctly on lorem and we should use a long text here
+    word wrap couldnt work correctly on lorem and we should use a long text here
+    word wrap couldnt work correctly on lorem and we should use a long text here
+    word wrap couldnt work correctly on lorem and we should use a long text here
 </div>
 
 
