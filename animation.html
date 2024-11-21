@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+
+<style>
+    @keyframes anim1{
+        from{
+            background-color: brown;
+        }
+        to{
+            background-color: blue;
+        }
+    }
+    @keyframes anim2{
+        0%{
+            background-color: brown;
+        }
+        25%{
+            background-color: aquamarine;
+        }
+        50%{
+            background-color: blueviolet;
+        }
+        100%{
+            background-color: blanchedalmond;
+        }
+    }
+    @keyframes anim3{
+        0%{
+            background-color: brown;
+            left: 0px;
+            top: 0px;
+        }
+        25%{
+            background-color: aquamarine;
+            left: 200px;
+            top: 0px;
+        }
+        50%{
+            background-color: blueviolet;
+            left: 200px;
+            top: 2oopx;
+        }
+        100%{
+            background-color: blanchedalmond;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: purple;
+        animation-name: anim1;
+        animation-duration: 5s;
+        animation-delay: 2s;
+    }
+</style>
+
+</head>
+<body>
+    
+<div></div>
+<!-- <div id="div1" class="secondDiv">linear</div>
+<div id="div2" class="secondDiv">ease</div>
+<div id="div3" class="secondDiv">ease-in</div>
+<div id="div4" class="secondDiv">ease-out</div>
+<div id="div5" class="secondDiv">ease-in-out</div> -->
+
+</body>
+</html>
