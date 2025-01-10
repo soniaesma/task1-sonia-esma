@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const alertMyComment=()=>{
+            const txt=document.getElementById("mytxtarea").value;
+            alert(txt)
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="alertMyComment()">
+        <label>my text area</label><br>
+        <textarea style="resize: none;" name="mytxtarea" id="mytxtarea" rows="5" cols="100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ipsum explicabo commodi iure voluptatem, aut iste eius in reprehenderit animi cumque quis? Consequuntur quam consectetur iste inventore eligendi. Nulla, nemo?</textarea>
+        <input type="submit" value="submit"/>
+
+    </form>
+</body>
+</html>

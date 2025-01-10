@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow</title>
+    <style>
+        div{
+            width: 15rem;
+            height: 10rem;
+            border: 2px dashed color(srgb rgba(63, 163, 155, 0.616) rgb(30, 82, 30) rgb(65, 65, 109));
+            margin-left: 100px;
+            margin-top: 100px;
+            background-color: aquamarine;
+            box-shadow: -10px 10px 20px 10px #11a171 inset;
+            transition: background-color 0.5s ease;
+            transition: border 1s ease-in;
+            
+        }
+        div:hover{
+            background-color: blue;
+            cursor: pointer;
+            border: 10px solid #2bf435;
+
+        }
+    </style>
+</head>
+<body>
+    
+<div>I have shadow</div>
+
+</body>
+</html>
